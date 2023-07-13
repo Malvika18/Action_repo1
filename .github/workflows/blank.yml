@@ -34,6 +34,9 @@ jobs:
         with:
           python-version: '3.10' 
       - run: pip install json2xml
+      
+      - name: convert json to xml
+        run: json2xml -i response.json -o output.xml
         
 
       # Runs a set of commands using the runners shell
@@ -42,7 +45,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: 'response.json'
+          source_file: 'output.xml'
           destination_repo: 'Malvika18/Action_repo2'
 
           user_email: 'malvika.bhargava2000@gmail.com'
