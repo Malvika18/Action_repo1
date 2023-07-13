@@ -1,37 +1,22 @@
-"Fields": [
-        {
-            "Name": "Fname",
-            "Index": "0",
-            "Status": "N",
-            "LastModifiedDate": "",
-            "OldName": ""
-        },
-        {
-            "Name": "First Name",
-            "Index": "0",
-            "Status": "Y",
-            "LastModifiedDate": "2023-05-01T15:20:22.222",
-            "OldName": "Fname"
-        },
-        {
-            "Name": "FirstName",
-            "Index": "0",
-            "Status": "Y",
-            "LastModifiedDate": "2023-05-01T16:22:22.222",
-            "OldName": "First Name"
-        },
-        {
-            "Name": "Last Name",
-            "Index": "1",
-            "Status": "Y",
-            "LastModifiedDate": "",
-            "OldName": ""
-        },
-        {
-            "Name": "Mob.",
-            "Index": "10",
-            "Status": "Y",
-            "LastModifiedDate": "2023-07-01T16:22:22.222",
-            "OldName": ""
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
         }
-]
+    }
+}
