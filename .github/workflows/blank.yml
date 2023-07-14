@@ -45,7 +45,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: 'response.xml'
+          source_file: 'data.json'
           destination_repo: 'Malvika18/Action_repo2'
 
           user_email: 'malvika.bhargava2000@gmail.com'
